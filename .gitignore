@@ -1,0 +1,49 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/build/
+**/ios/Flutter/.last_build_id
+
+# IntelliJ related
+.idea/
+*.iml
+
+# VS Code related
+.vscode/
+
+# macOS related
+.DS_Store
+
+# Windows related
+Thumbs.db
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Android Studio related
+**/local.properties
+**/.gradle
+**/captures/
+
+# Node modules if you use any NodeJS packages
+node_modules/
+
+# Env files
+.env
+
+# Other IDEs and editors
+*.swp
+*.swo
+*.log
+*.class
+
+# Miscellaneous
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/

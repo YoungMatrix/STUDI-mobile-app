@@ -1,0 +1,64 @@
+name: soigne_pro
+description: "Application for ECF studi project"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  mysql1: ^0.20.0
+  intl: ^0.19.0
+  shared_preferences: ^2.0.13
+  crypto: ^3.0.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+fonts:
+  - family: Arial
+    fonts:
+      - assets/fonts/arial.ttf
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/home.jpg
+    - assets/sql/get_doctor_information.sql
+    - assets/sql/get_patient_information.sql
+    - assets/sql/get_patient_today.sql
+    - assets/sql/get_prescription.sql
+    - assets/sql/get_medication.sql
+    - assets/sql/send_patient_information.sql
+    - assets/sql/get_drugs.sql
+    - assets/sql/get_dosages.sql
+    - assets/sql/get_labels.sql
+    - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
