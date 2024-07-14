@@ -24,16 +24,20 @@
 
    # Database connection parameters (online or local database)
    DB_HOST=To Be Completed (IP for emulator if local database)
+
    DB_PORT=TBC
+
    DB_USER=TBC
+
    DB_PASSWORD=TBC
+
    DB_NAME=TBC
 
 6. Install .env files support plugin directly from .env file.
 7. Restart Android Studio.
 8. Open Files => Settings => Languages & Frameworks => Dart.
 9. Click on Enable Dart support for the project "STUDI-mobile-app".
-10. Fill Dart SDK path: C:\...\flutter\bin\cache\dart-sdk (complete ...).
+10. Fill Dart SDK path: C:\\...\flutter\bin\cache\dart-sdk (complete ...).
 11. Enable Dart support for project "STUDI-mobile-app".
 12. Open pubspec.yaml then click on "flutter pub get".
 
